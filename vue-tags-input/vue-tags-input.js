@@ -226,6 +226,7 @@ export default {
           addTag: () => this.addTag(tag, source),
         });
       });
+      this.focused = true;
     },
     duplicateFilter(tag) {
       return this.isDuplicate
